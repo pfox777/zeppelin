@@ -192,24 +192,6 @@
       </plugin>
 
       <plugin>
-        <!-- clean task will be executed by front-end-maven plugin -->
-        <artifactId>maven-clean-plugin</artifactId>
-        <configuration>
-          <filesets>
-            <fileset>
-              <directory>bower_components</directory>
-            </fileset>
-            <fileset>
-              <directory>node</directory>
-            </fileset>
-            <fileset>
-              <directory>node_modules</directory>
-            </fileset>
-          </filesets>
-        </configuration>
-      </plugin>
-
-      <plugin>
         <artifactId>maven-resources-plugin</artifactId>
         <version>${plugin.resource.version}</version>
       </plugin>
